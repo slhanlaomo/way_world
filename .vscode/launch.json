@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": ["runserver"],
+            "django": true,
+            // 显式指定虚拟环境的 Python 路径（关键！）
+            "python": "${workspaceFolder}/venv/bin/python"
+        }
+    ]
+}
