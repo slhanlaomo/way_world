@@ -36,12 +36,12 @@ DEBUG = env_to_bool('DJANGO_DEBUG', True)
 TESTING = len(sys.argv) > 1 and sys.argv[1] == 'test'
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*', '127.0.0.1', 'www.waycloud.top', 'waycloud.top', '101.200.210.237']
+ALLOWED_HOSTS = ['*', '127.0.0.1', 'www.wayworld.top', 'wayworld.top', '101.200.210.237']
 # django 4.0新增配置
 # CSRF_TRUSTED_ORIGINS = ['http://example.com']
 
 # 加入你的主域名和www子域名，与 ALLOWED_HOSTS 对应
-CSRF_TRUSTED_ORIGINS = ['http://www.waycloud.top', 'http://waycloud.top', 'http://101.200.210.237']
+CSRF_TRUSTED_ORIGINS = ['http://www.wayworld.top', 'http://wayworld.top', 'http://101.200.210.237']
 
 # Application definition
 
