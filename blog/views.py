@@ -38,7 +38,7 @@ class ArticleListView(ListView):
     link_type = LinkShowType.L
 
     def get_view_cache_key(self):
-        return self.request.get['pages']
+        return self.request.GET['pages']
 
     @property
     def page_number(self):
